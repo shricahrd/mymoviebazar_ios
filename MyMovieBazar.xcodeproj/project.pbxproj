@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18321B7024E08040009251FF /* AvailableBalanceWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18321B6F24E08040009251FF /* AvailableBalanceWallet.swift */; };
+		EC02332C24B9FCA90078D97B /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02332B24B9FCA90078D97B /* SplashVC.swift */; };
+		EC02332E24B9FD8F0078D97B /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02332D24B9FD8F0078D97B /* HomeTabViewController.swift */; };
+		EC02333024BA00970078D97B /* Welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC02332F24BA00970078D97B /* Welcome.jpg */; };
+		EC035F4E24BDCE0D00917362 /* MyPlansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC035F4D24BDCE0D00917362 /* MyPlansController.swift */; };
+		EC035F5124BDD21200917362 /* MyPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC035F4F24BDD21200917362 /* MyPlanCell.swift */; };
+		EC035F5224BDD21200917362 /* MyPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC035F5024BDD21200917362 /* MyPlanCell.xib */; };
+		EC1EE13224BB0205002E7228 /* MovieShowTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1EE13124BB0205002E7228 /* MovieShowTime.swift */; };
+		EC72D30B24C63A9800756F1F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D30A24C63A9800756F1F /* NotificationController.swift */; };
+		EC72D30E24C63B4C00756F1F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D30C24C63B4C00756F1F /* NotificationCell.swift */; };
+		EC72D30F24C63B4C00756F1F /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC72D30D24C63B4C00756F1F /* NotificationCell.xib */; };
+		EC72D31224C6420F00756F1F /* OffersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D31024C6420F00756F1F /* OffersCell.swift */; };
+		EC72D31324C6420F00756F1F /* OffersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC72D31124C6420F00756F1F /* OffersCell.xib */; };
+		EC72D31524C6423100756F1F /* OffersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D31424C6423100756F1F /* OffersController.swift */; };
+		EC72D31724C6483D00756F1F /* TermsConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D31624C6483D00756F1F /* TermsConditions.swift */; };
+		EC72D31924C64FAE00756F1F /* HelpSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D31824C64FAE00756F1F /* HelpSupport.swift */; };
+		EC72D31B24C652B100756F1F /* MyAddressDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D31A24C652B100756F1F /* MyAddressDetail.swift */; };
+		EC72D31D24C6567600756F1F /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72D31C24C6567600756F1F /* PrivacyPolicy.swift */; };
+		EC7BBCA624B9AC5D00898CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BBCA524B9AC5D00898CB4 /* AppDelegate.swift */; };
+		EC7BBCA824B9AC5D00898CB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BBCA724B9AC5D00898CB4 /* SceneDelegate.swift */; };
+		EC7BBCAA24B9AC5D00898CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BBCA924B9AC5D00898CB4 /* ViewController.swift */; };
+		EC7BBCAD24B9AC5E00898CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7BBCAB24B9AC5E00898CB4 /* Main.storyboard */; };
+		EC7BBCB024B9AC5E00898CB4 /* MyMovieBazar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC7BBCAE24B9AC5E00898CB4 /* MyMovieBazar.xcdatamodeld */; };
+		EC7BBCB224B9AC6B00898CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7BBCB124B9AC6B00898CB4 /* Assets.xcassets */; };
+		EC7BBCB524B9AC6B00898CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7BBCB324B9AC6B00898CB4 /* LaunchScreen.storyboard */; };
+		EC7BBCC024B9B2C000898CB4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BBCBF24B9B2C000898CB4 /* HomeViewController.swift */; };
+		EC7BBCC424B9B30F00898CB4 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BBCC324B9B30F00898CB4 /* UploadViewController.swift */; };
+		EC7BBCC824B9B37900898CB4 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BBCC724B9B37900898CB4 /* MoreViewController.swift */; };
+		ECB18A8924D3496500B786A6 /* WalletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB18A8824D3496500B786A6 /* WalletController.swift */; };
+		ECC44CF124BDB93A00A73992 /* MyAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC44CEF24BDB93A00A73992 /* MyAccountCell.swift */; };
+		ECC44CF224BDB93A00A73992 /* MyAccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC44CF024BDB93A00A73992 /* MyAccountCell.xib */; };
+		ECC44CF924BDBFD400A73992 /* MoreOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC44CF824BDBFD400A73992 /* MoreOptionViewController.swift */; };
+		ECC44CFD24BDC1BE00A73992 /* MyAdsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC44CFC24BDC1BE00A73992 /* MyAdsController.swift */; };
+		ECE812EB24BCBB39003D71C6 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE812EA24BCBB39003D71C6 /* MyAccountViewController.swift */; };
+		ECF0918424BA0FF10019F998 /* MenuBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF0918224BA0FF00019F998 /* MenuBarCell.xib */; };
+		ECF0918524BA0FF10019F998 /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0918324BA0FF10019F998 /* MenuBarCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18321B6F24E08040009251FF /* AvailableBalanceWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableBalanceWallet.swift; sourceTree = "<group>"; };
+		EC02332B24B9FCA90078D97B /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		EC02332D24B9FD8F0078D97B /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		EC02332F24BA00970078D97B /* Welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome.jpg; sourceTree = "<group>"; };
+		EC035F4D24BDCE0D00917362 /* MyPlansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlansController.swift; sourceTree = "<group>"; };
+		EC035F4F24BDD21200917362 /* MyPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanCell.swift; sourceTree = "<group>"; };
+		EC035F5024BDD21200917362 /* MyPlanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPlanCell.xib; sourceTree = "<group>"; };
+		EC1EE13124BB0205002E7228 /* MovieShowTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieShowTime.swift; sourceTree = "<group>"; };
+		EC72D30A24C63A9800756F1F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EC72D30C24C63B4C00756F1F /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		EC72D30D24C63B4C00756F1F /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		EC72D31024C6420F00756F1F /* OffersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCell.swift; sourceTree = "<group>"; };
+		EC72D31124C6420F00756F1F /* OffersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffersCell.xib; sourceTree = "<group>"; };
+		EC72D31424C6423100756F1F /* OffersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersController.swift; sourceTree = "<group>"; };
+		EC72D31624C6483D00756F1F /* TermsConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditions.swift; sourceTree = "<group>"; };
+		EC72D31824C64FAE00756F1F /* HelpSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSupport.swift; sourceTree = "<group>"; };
+		EC72D31A24C652B100756F1F /* MyAddressDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressDetail.swift; sourceTree = "<group>"; };
+		EC72D31C24C6567600756F1F /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
+		EC7BBCA224B9AC5D00898CB4 /* MyMovieBazar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieBazar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7BBCA524B9AC5D00898CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC7BBCA724B9AC5D00898CB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC7BBCA924B9AC5D00898CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC7BBCAC24B9AC5E00898CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC7BBCAF24B9AC5E00898CB4 /* MyMovieBazar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMovieBazar.xcdatamodel; sourceTree = "<group>"; };
+		EC7BBCB124B9AC6B00898CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7BBCB424B9AC6B00898CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC7BBCB624B9AC6B00898CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7BBCBF24B9B2C000898CB4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC7BBCC324B9B30F00898CB4 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		EC7BBCC724B9B37900898CB4 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		ECB18A8824D3496500B786A6 /* WalletController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletController.swift; sourceTree = "<group>"; };
+		ECC44CEF24BDB93A00A73992 /* MyAccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountCell.swift; sourceTree = "<group>"; };
+		ECC44CF024BDB93A00A73992 /* MyAccountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAccountCell.xib; sourceTree = "<group>"; };
+		ECC44CF824BDBFD400A73992 /* MoreOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreOptionViewController.swift; sourceTree = "<group>"; };
+		ECC44CFC24BDC1BE00A73992 /* MyAdsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdsController.swift; sourceTree = "<group>"; };
+		ECE812EA24BCBB39003D71C6 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		ECF0918224BA0FF00019F998 /* MenuBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuBarCell.xib; sourceTree = "<group>"; };
+		ECF0918324BA0FF10019F998 /* MenuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7BBC9F24B9AC5D00898CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC035F4C24BDCD9300917362 /* MyPlansController */ = {
+			isa = PBXGroup;
+			children = (
+				EC035F4D24BDCE0D00917362 /* MyPlansController.swift */,
+				EC035F4F24BDD21200917362 /* MyPlanCell.swift */,
+				EC035F5024BDD21200917362 /* MyPlanCell.xib */,
+			);
+			path = MyPlansController;
+			sourceTree = "<group>";
+		};
+		EC035F5324BDDB1500917362 /* NotificationController */ = {
+			isa = PBXGroup;
+			children = (
+				EC72D30A24C63A9800756F1F /* NotificationController.swift */,
+				EC72D30C24C63B4C00756F1F /* NotificationCell.swift */,
+				EC72D30D24C63B4C00756F1F /* NotificationCell.xib */,
+			);
+			path = NotificationController;
+			sourceTree = "<group>";
+		};
+		EC72D30924C63A5D00756F1F /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				EC72D31424C6423100756F1F /* OffersController.swift */,
+				EC72D31624C6483D00756F1F /* TermsConditions.swift */,
+				EC72D31C24C6567600756F1F /* PrivacyPolicy.swift */,
+				EC72D31824C64FAE00756F1F /* HelpSupport.swift */,
+				EC72D31A24C652B100756F1F /* MyAddressDetail.swift */,
+				EC72D31024C6420F00756F1F /* OffersCell.swift */,
+				EC72D31124C6420F00756F1F /* OffersCell.xib */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		EC7BBC9924B9AC5D00898CB4 = {
+			isa = PBXGroup;
+			children = (
+				EC7BBCA424B9AC5D00898CB4 /* MyMovieBazar */,
+				EC7BBCA324B9AC5D00898CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7BBCA324B9AC5D00898CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BBCA224B9AC5D00898CB4 /* MyMovieBazar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7BBCA424B9AC5D00898CB4 /* MyMovieBazar */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BBCBE24B9B22500898CB4 /* Controllers */,
+				EC7BBCA524B9AC5D00898CB4 /* AppDelegate.swift */,
+				EC7BBCA724B9AC5D00898CB4 /* SceneDelegate.swift */,
+				EC7BBCA924B9AC5D00898CB4 /* ViewController.swift */,
+				EC7BBCAB24B9AC5E00898CB4 /* Main.storyboard */,
+				EC7BBCB124B9AC6B00898CB4 /* Assets.xcassets */,
+				EC7BBCB324B9AC6B00898CB4 /* LaunchScreen.storyboard */,
+				EC7BBCB624B9AC6B00898CB4 /* Info.plist */,
+				EC7BBCAE24B9AC5E00898CB4 /* MyMovieBazar.xcdatamodeld */,
+			);
+			path = MyMovieBazar;
+			sourceTree = "<group>";
+		};
+		EC7BBCBE24B9B22500898CB4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECB18A8724D348FB00B786A6 /* WalletController */,
+				EC72D30924C63A5D00756F1F /* Offers */,
+				EC035F5324BDDB1500917362 /* NotificationController */,
+				EC035F4C24BDCD9300917362 /* MyPlansController */,
+				ECC44CFB24BDC19800A73992 /* MyAdsController */,
+				ECC44CF724BDBFB300A73992 /* MoreOptions */,
+				ECE812E924BCBB01003D71C6 /* MyAccount */,
+				ECF0918324BA0FF10019F998 /* MenuBarCell.swift */,
+				ECF0918224BA0FF00019F998 /* MenuBarCell.xib */,
+				EC7BBCBF24B9B2C000898CB4 /* HomeViewController.swift */,
+				EC7BBCC324B9B30F00898CB4 /* UploadViewController.swift */,
+				EC7BBCC724B9B37900898CB4 /* MoreViewController.swift */,
+				EC02332D24B9FD8F0078D97B /* HomeTabViewController.swift */,
+				EC02332B24B9FCA90078D97B /* SplashVC.swift */,
+				EC02332F24BA00970078D97B /* Welcome.jpg */,
+				EC1EE13124BB0205002E7228 /* MovieShowTime.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECB18A8724D348FB00B786A6 /* WalletController */ = {
+			isa = PBXGroup;
+			children = (
+				ECB18A8824D3496500B786A6 /* WalletController.swift */,
+				18321B6F24E08040009251FF /* AvailableBalanceWallet.swift */,
+			);
+			path = WalletController;
+			sourceTree = "<group>";
+		};
+		ECC44CF724BDBFB300A73992 /* MoreOptions */ = {
+			isa = PBXGroup;
+			children = (
+				ECC44CF824BDBFD400A73992 /* MoreOptionViewController.swift */,
+			);
+			path = MoreOptions;
+			sourceTree = "<group>";
+		};
+		ECC44CFB24BDC19800A73992 /* MyAdsController */ = {
+			isa = PBXGroup;
+			children = (
+				ECC44CFC24BDC1BE00A73992 /* MyAdsController.swift */,
+			);
+			path = MyAdsController;
+			sourceTree = "<group>";
+		};
+		ECE812E924BCBB01003D71C6 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				ECE812EA24BCBB39003D71C6 /* MyAccountViewController.swift */,
+				ECC44CEF24BDB93A00A73992 /* MyAccountCell.swift */,
+				ECC44CF024BDB93A00A73992 /* MyAccountCell.xib */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7BBCA124B9AC5D00898CB4 /* MyMovieBazar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7BBCB924B9AC6B00898CB4 /* Build configuration list for PBXNativeTarget "MyMovieBazar" */;
+			buildPhases = (
+				EC7BBC9E24B9AC5D00898CB4 /* Sources */,
+				EC7BBC9F24B9AC5D00898CB4 /* Frameworks */,
+				EC7BBCA024B9AC5D00898CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMovieBazar;
+			productName = MyMovieBazar;
+			productReference = EC7BBCA224B9AC5D00898CB4 /* MyMovieBazar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7BBC9A24B9AC5D00898CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = rakesh;
+				TargetAttributes = {
+					EC7BBCA124B9AC5D00898CB4 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EC7BBC9D24B9AC5D00898CB4 /* Build configuration list for PBXProject "MyMovieBazar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7BBC9924B9AC5D00898CB4;
+			productRefGroup = EC7BBCA324B9AC5D00898CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7BBCA124B9AC5D00898CB4 /* MyMovieBazar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7BBCA024B9AC5D00898CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF0918424BA0FF10019F998 /* MenuBarCell.xib in Resources */,
+				EC7BBCB524B9AC6B00898CB4 /* LaunchScreen.storyboard in Resources */,
+				EC72D31324C6420F00756F1F /* OffersCell.xib in Resources */,
+				EC035F5224BDD21200917362 /* MyPlanCell.xib in Resources */,
+				EC02333024BA00970078D97B /* Welcome.jpg in Resources */,
+				EC72D30F24C63B4C00756F1F /* NotificationCell.xib in Resources */,
+				EC7BBCB224B9AC6B00898CB4 /* Assets.xcassets in Resources */,
+				EC7BBCAD24B9AC5E00898CB4 /* Main.storyboard in Resources */,
+				ECC44CF224BDB93A00A73992 /* MyAccountCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7BBC9E24B9AC5D00898CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7BBCC824B9B37900898CB4 /* MoreViewController.swift in Sources */,
+				EC02332C24B9FCA90078D97B /* SplashVC.swift in Sources */,
+				EC72D31924C64FAE00756F1F /* HelpSupport.swift in Sources */,
+				ECC44CFD24BDC1BE00A73992 /* MyAdsController.swift in Sources */,
+				ECF0918524BA0FF10019F998 /* MenuBarCell.swift in Sources */,
+				EC7BBCC024B9B2C000898CB4 /* HomeViewController.swift in Sources */,
+				EC7BBCC424B9B30F00898CB4 /* UploadViewController.swift in Sources */,
+				EC72D31B24C652B100756F1F /* MyAddressDetail.swift in Sources */,
+				EC72D30B24C63A9800756F1F /* NotificationController.swift in Sources */,
+				EC72D30E24C63B4C00756F1F /* NotificationCell.swift in Sources */,
+				EC1EE13224BB0205002E7228 /* MovieShowTime.swift in Sources */,
+				EC7BBCAA24B9AC5D00898CB4 /* ViewController.swift in Sources */,
+				ECB18A8924D3496500B786A6 /* WalletController.swift in Sources */,
+				EC035F5124BDD21200917362 /* MyPlanCell.swift in Sources */,
+				ECC44CF124BDB93A00A73992 /* MyAccountCell.swift in Sources */,
+				18321B7024E08040009251FF /* AvailableBalanceWallet.swift in Sources */,
+				EC02332E24B9FD8F0078D97B /* HomeTabViewController.swift in Sources */,
+				EC72D31D24C6567600756F1F /* PrivacyPolicy.swift in Sources */,
+				EC035F4E24BDCE0D00917362 /* MyPlansController.swift in Sources */,
+				ECE812EB24BCBB39003D71C6 /* MyAccountViewController.swift in Sources */,
+				EC72D31724C6483D00756F1F /* TermsConditions.swift in Sources */,
+				EC7BBCA624B9AC5D00898CB4 /* AppDelegate.swift in Sources */,
+				EC72D31524C6423100756F1F /* OffersController.swift in Sources */,
+				EC72D31224C6420F00756F1F /* OffersCell.swift in Sources */,
+				EC7BBCA824B9AC5D00898CB4 /* SceneDelegate.swift in Sources */,
+				ECC44CF924BDBFD400A73992 /* MoreOptionViewController.swift in Sources */,
+				EC7BBCB024B9AC5E00898CB4 /* MyMovieBazar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC7BBCAB24B9AC5E00898CB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7BBCAC24B9AC5E00898CB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7BBCB324B9AC6B00898CB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7BBCB424B9AC6B00898CB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7BBCB724B9AC6B00898CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC7BBCB824B9AC6B00898CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7BBCBA24B9AC6B00898CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J8NP96N36;
+				INFOPLIST_FILE = MyMovieBazar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rakesh.MyMovieBazar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7BBCBB24B9AC6B00898CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J8NP96N36;
+				INFOPLIST_FILE = MyMovieBazar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rakesh.MyMovieBazar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7BBC9D24B9AC5D00898CB4 /* Build configuration list for PBXProject "MyMovieBazar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7BBCB724B9AC6B00898CB4 /* Debug */,
+				EC7BBCB824B9AC6B00898CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7BBCB924B9AC6B00898CB4 /* Build configuration list for PBXNativeTarget "MyMovieBazar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7BBCBA24B9AC6B00898CB4 /* Debug */,
+				EC7BBCBB24B9AC6B00898CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC7BBCAE24B9AC5E00898CB4 /* MyMovieBazar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC7BBCAF24B9AC5E00898CB4 /* MyMovieBazar.xcdatamodel */,
+			);
+			currentVersion = EC7BBCAF24B9AC5E00898CB4 /* MyMovieBazar.xcdatamodel */;
+			path = MyMovieBazar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC7BBC9A24B9AC5D00898CB4 /* Project object */;
+}
