@@ -11,7 +11,9 @@ class NotificationController: UIViewController, UITableViewDelegate, UITableView
     var screenHeight:CGFloat = 0.0
     @IBOutlet var tableViewListing: UITableView!
     var arrayTitle = [String]()
-
+    @IBOutlet weak var btnEditProfile: UIButton!
+    @IBOutlet weak var imgProfile: UIImageView!
+    
     override func viewDidLoad() {
           super.viewDidLoad()
           self.navigationController?.setNavigationBarHidden(true, animated: false)
@@ -19,6 +21,8 @@ class NotificationController: UIViewController, UITableViewDelegate, UITableView
          
           screenWidth = screenSize.width
           screenHeight = screenSize.height
+          imgProfile.layer.cornerRadius = imgProfile.frame.size.width/2
+          imgProfile.clipsToBounds = true
           arrayTitle = ["Movie ADS","Movie Rights","Movie Theaters","Movie Artists","Movie Technicians", "Others"]
           registerNibs()
     }
@@ -28,7 +32,7 @@ class NotificationController: UIViewController, UITableViewDelegate, UITableView
         tableViewListing.dataSource=self;
         tableViewListing.delegate=self;
         tableViewListing.bounces=true
-        tableViewListing.backgroundColor = UIColor.clear
+        tableViewListing.backgroundColor = UIColor.white
         tableViewListing.separatorStyle = .none
         tableViewListing.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: "NotificationCell")
     }
@@ -69,6 +73,8 @@ class NotificationController: UIViewController, UITableViewDelegate, UITableView
        }
          return UITableViewCell()
 
+    }
+    @IBAction func BtnEditProfile(_ sender: Any) {
     }
     
 }

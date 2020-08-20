@@ -7,7 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1823727424E2EE6300EED487 /* AvailableBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823727224E2EE6300EED487 /* AvailableBalanceCell.swift */; };
+		1823727524E2EE6300EED487 /* AvailableBalanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1823727324E2EE6300EED487 /* AvailableBalanceCell.xib */; };
+		1829F30A24E5721E00BAF4E9 /* SelectTechnician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829F30924E5721E00BAF4E9 /* SelectTechnician.swift */; };
+		1829F30D24E5724900BAF4E9 /* SelectTechnicianCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829F30B24E5724900BAF4E9 /* SelectTechnicianCell.swift */; };
+		1829F30E24E5724900BAF4E9 /* SelectTechnicianCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1829F30C24E5724900BAF4E9 /* SelectTechnicianCell.xib */; };
+		1829F31224E57C6000BAF4E9 /* SelectTechnicianList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829F31124E57C6000BAF4E9 /* SelectTechnicianList.swift */; };
+		1829F31424E5812B00BAF4E9 /* EnterYourDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829F31324E5812B00BAF4E9 /* EnterYourDetail.swift */; };
+		1829F31624E5844B00BAF4E9 /* thankyou.png in Resources */ = {isa = PBXBuildFile; fileRef = 1829F31524E5844B00BAF4E9 /* thankyou.png */; };
+		1829F31824E5849B00BAF4E9 /* Thankyou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829F31724E5849B00BAF4E9 /* Thankyou.swift */; };
+		182FBE6124E63761003C1347 /* MovietheatreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FBE6024E63761003C1347 /* MovietheatreList.swift */; };
+		182FBE6424E63FF4003C1347 /* MovietheatresListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FBE6224E63FF4003C1347 /* MovietheatresListCell.swift */; };
+		182FBE6524E63FF4003C1347 /* MovietheatresListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FBE6324E63FF4003C1347 /* MovietheatresListCell.xib */; };
+		182FBE6924E6463D003C1347 /* DistributionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FBE6724E6463D003C1347 /* DistributionListCell.swift */; };
+		182FBE6A24E6463D003C1347 /* DistributionListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FBE6824E6463D003C1347 /* DistributionListCell.xib */; };
+		182FBE6C24E64656003C1347 /* DistributionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FBE6B24E64656003C1347 /* DistributionList.swift */; };
 		18321B7024E08040009251FF /* AvailableBalanceWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18321B6F24E08040009251FF /* AvailableBalanceWallet.swift */; };
+		183BCD5724E40C8F00E66520 /* MovietheatresCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BCD5524E40C8F00E66520 /* MovietheatresCell.swift */; };
+		183BCD5824E40C8F00E66520 /* MovietheatresCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183BCD5624E40C8F00E66520 /* MovietheatresCell.xib */; };
+		183BCD5A24E40F2700E66520 /* MovieTheatres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BCD5924E40F2700E66520 /* MovieTheatres.swift */; };
+		183BCD5D24E4150C00E66520 /* CityLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BCD5C24E4150C00E66520 /* CityLocation.swift */; };
+		183BCD6224E41EC600E66520 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BCD6124E41EC600E66520 /* Dashboard.swift */; };
+		184259C524E4D109003067D8 /* Statelocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259C424E4D109003067D8 /* Statelocation.swift */; };
+		184259C824E4D30C003067D8 /* stateLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259C624E4D30C003067D8 /* stateLocationCell.swift */; };
+		184259C924E4D30C003067D8 /* stateLocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184259C724E4D30C003067D8 /* stateLocationCell.xib */; };
+		184259CB24E4D49C003067D8 /* SelectLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259CA24E4D49C003067D8 /* SelectLanguage.swift */; };
+		184259CE24E4E600003067D8 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259CD24E4E600003067D8 /* Register.swift */; };
+		184259D024E4F25A003067D8 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 184259CF24E4F25A003067D8 /* message.png */; };
+		184259D224E4F54C003067D8 /* VerificationCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259D124E4F54C003067D8 /* VerificationCode.swift */; };
+		184259D424E500FC003067D8 /* img_lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 184259D324E500FC003067D8 /* img_lock.png */; };
+		184259D624E50655003067D8 /* img_key.png in Resources */ = {isa = PBXBuildFile; fileRef = 184259D524E50654003067D8 /* img_key.png */; };
+		184259D824E50962003067D8 /* MAIN_LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 184259D724E50962003067D8 /* MAIN_LOGO.png */; };
+		184259DA24E50ADC003067D8 /* img_loader.png in Resources */ = {isa = PBXBuildFile; fileRef = 184259D924E50ADB003067D8 /* img_loader.png */; };
+		184259DD24E52BE0003067D8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259DC24E52BE0003067D8 /* Login.swift */; };
+		184259DF24E5325B003067D8 /* RegisterEmailID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259DE24E5325B003067D8 /* RegisterEmailID.swift */; };
+		184259E424E5345D003067D8 /* ForGotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259E324E5345D003067D8 /* ForGotPassword.swift */; };
+		184259E624E5359D003067D8 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259E524E5359D003067D8 /* ResetPassword.swift */; };
+		184259EA24E53803003067D8 /* ChangePasswordSuccessfuly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184259E924E53803003067D8 /* ChangePasswordSuccessfuly.swift */; };
+		184FA45924E3812000D4E263 /* ReaviewOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FA45824E3812000D4E263 /* ReaviewOrderVC.swift */; };
+		184FA45C24E3923D00D4E263 /* TechniciansVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FA45B24E3923D00D4E263 /* TechniciansVC.swift */; };
+		184FA45E24E3A37500D4E263 /* IMG_RS.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FA45D24E3A37500D4E263 /* IMG_RS.png */; };
+		184FA46124E3ADA700D4E263 /* MyMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FA46024E3ADA700D4E263 /* MyMovieVC.swift */; };
+		184FA46624E3B1F000D4E263 /* MyMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FA46424E3B1F000D4E263 /* MyMovieCell.swift */; };
+		184FA46724E3B1F000D4E263 /* MyMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184FA46524E3B1F000D4E263 /* MyMovieCell.xib */; };
+		184FA46924E3D70700D4E263 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FA46824E3D70700D4E263 /* like.png */; };
+		184FA46B24E3D7B500D4E263 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 184FA46A24E3D7B500D4E263 /* eye.png */; };
+		184FA46F24E3DBAA00D4E263 /* traile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 184FA46E24E3DBAA00D4E263 /* traile.jpeg */; };
+		184FA47224E3E2D700D4E263 /* ProducersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FA47124E3E2D700D4E263 /* ProducersVC.swift */; };
+		184FA47524E3E67200D4E263 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FA47424E3E67200D4E263 /* Profile.swift */; };
+		184FA47824E3E73800D4E263 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FA47624E3E73800D4E263 /* ProfileCell.swift */; };
+		184FA47924E3E73800D4E263 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184FA47724E3E73800D4E263 /* ProfileCell.xib */; };
+		184FDA9A24E30D110078D2B9 /* MembershipPlanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FDA9924E30D110078D2B9 /* MembershipPlanController.swift */; };
+		184FDA9D24E310170078D2B9 /* MembershipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FDA9B24E310170078D2B9 /* MembershipCell.swift */; };
+		184FDA9E24E310170078D2B9 /* MembershipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184FDA9C24E310170078D2B9 /* MembershipCell.xib */; };
 		EC02332C24B9FCA90078D97B /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02332B24B9FCA90078D97B /* SplashVC.swift */; };
 		EC02332E24B9FD8F0078D97B /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02332D24B9FD8F0078D97B /* HomeTabViewController.swift */; };
 		EC02333024BA00970078D97B /* Welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC02332F24BA00970078D97B /* Welcome.jpg */; };
@@ -46,7 +98,59 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1823727224E2EE6300EED487 /* AvailableBalanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableBalanceCell.swift; sourceTree = "<group>"; };
+		1823727324E2EE6300EED487 /* AvailableBalanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvailableBalanceCell.xib; sourceTree = "<group>"; };
+		1829F30924E5721E00BAF4E9 /* SelectTechnician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTechnician.swift; sourceTree = "<group>"; };
+		1829F30B24E5724900BAF4E9 /* SelectTechnicianCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTechnicianCell.swift; sourceTree = "<group>"; };
+		1829F30C24E5724900BAF4E9 /* SelectTechnicianCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectTechnicianCell.xib; sourceTree = "<group>"; };
+		1829F31124E57C6000BAF4E9 /* SelectTechnicianList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTechnicianList.swift; sourceTree = "<group>"; };
+		1829F31324E5812B00BAF4E9 /* EnterYourDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourDetail.swift; sourceTree = "<group>"; };
+		1829F31524E5844B00BAF4E9 /* thankyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thankyou.png; sourceTree = "<group>"; };
+		1829F31724E5849B00BAF4E9 /* Thankyou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thankyou.swift; sourceTree = "<group>"; };
+		182FBE6024E63761003C1347 /* MovietheatreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovietheatreList.swift; sourceTree = "<group>"; };
+		182FBE6224E63FF4003C1347 /* MovietheatresListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovietheatresListCell.swift; sourceTree = "<group>"; };
+		182FBE6324E63FF4003C1347 /* MovietheatresListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovietheatresListCell.xib; sourceTree = "<group>"; };
+		182FBE6724E6463D003C1347 /* DistributionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionListCell.swift; sourceTree = "<group>"; };
+		182FBE6824E6463D003C1347 /* DistributionListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DistributionListCell.xib; sourceTree = "<group>"; };
+		182FBE6B24E64656003C1347 /* DistributionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionList.swift; sourceTree = "<group>"; };
 		18321B6F24E08040009251FF /* AvailableBalanceWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableBalanceWallet.swift; sourceTree = "<group>"; };
+		183BCD5524E40C8F00E66520 /* MovietheatresCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovietheatresCell.swift; sourceTree = "<group>"; };
+		183BCD5624E40C8F00E66520 /* MovietheatresCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovietheatresCell.xib; sourceTree = "<group>"; };
+		183BCD5924E40F2700E66520 /* MovieTheatres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTheatres.swift; sourceTree = "<group>"; };
+		183BCD5C24E4150C00E66520 /* CityLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocation.swift; sourceTree = "<group>"; };
+		183BCD6124E41EC600E66520 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		184259C424E4D109003067D8 /* Statelocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statelocation.swift; sourceTree = "<group>"; };
+		184259C624E4D30C003067D8 /* stateLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateLocationCell.swift; sourceTree = "<group>"; };
+		184259C724E4D30C003067D8 /* stateLocationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = stateLocationCell.xib; sourceTree = "<group>"; };
+		184259CA24E4D49C003067D8 /* SelectLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguage.swift; sourceTree = "<group>"; };
+		184259CD24E4E600003067D8 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		184259CF24E4F25A003067D8 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		184259D124E4F54C003067D8 /* VerificationCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCode.swift; sourceTree = "<group>"; };
+		184259D324E500FC003067D8 /* img_lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_lock.png; sourceTree = "<group>"; };
+		184259D524E50654003067D8 /* img_key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_key.png; sourceTree = "<group>"; };
+		184259D724E50962003067D8 /* MAIN_LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MAIN_LOGO.png; sourceTree = "<group>"; };
+		184259D924E50ADB003067D8 /* img_loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_loader.png; sourceTree = "<group>"; };
+		184259DC24E52BE0003067D8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		184259DE24E5325B003067D8 /* RegisterEmailID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailID.swift; sourceTree = "<group>"; };
+		184259E324E5345D003067D8 /* ForGotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForGotPassword.swift; sourceTree = "<group>"; };
+		184259E524E5359D003067D8 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		184259E924E53803003067D8 /* ChangePasswordSuccessfuly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordSuccessfuly.swift; sourceTree = "<group>"; };
+		184FA45824E3812000D4E263 /* ReaviewOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaviewOrderVC.swift; sourceTree = "<group>"; };
+		184FA45B24E3923D00D4E263 /* TechniciansVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniciansVC.swift; sourceTree = "<group>"; };
+		184FA45D24E3A37500D4E263 /* IMG_RS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_RS.png; sourceTree = "<group>"; };
+		184FA46024E3ADA700D4E263 /* MyMovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieVC.swift; sourceTree = "<group>"; };
+		184FA46424E3B1F000D4E263 /* MyMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieCell.swift; sourceTree = "<group>"; };
+		184FA46524E3B1F000D4E263 /* MyMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyMovieCell.xib; sourceTree = "<group>"; };
+		184FA46824E3D70700D4E263 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		184FA46A24E3D7B500D4E263 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		184FA46E24E3DBAA00D4E263 /* traile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traile.jpeg; sourceTree = "<group>"; };
+		184FA47124E3E2D700D4E263 /* ProducersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducersVC.swift; sourceTree = "<group>"; };
+		184FA47424E3E67200D4E263 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		184FA47624E3E73800D4E263 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		184FA47724E3E73800D4E263 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		184FDA9924E30D110078D2B9 /* MembershipPlanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipPlanController.swift; sourceTree = "<group>"; };
+		184FDA9B24E310170078D2B9 /* MembershipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipCell.swift; sourceTree = "<group>"; };
+		184FDA9C24E310170078D2B9 /* MembershipCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MembershipCell.xib; sourceTree = "<group>"; };
 		EC02332B24B9FCA90078D97B /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		EC02332D24B9FD8F0078D97B /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		EC02332F24BA00970078D97B /* Welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome.jpg; sourceTree = "<group>"; };
@@ -97,6 +201,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1829F30824E571F300BAF4E9 /* MovieTechnicians */ = {
+			isa = PBXGroup;
+			children = (
+				1829F31524E5844B00BAF4E9 /* thankyou.png */,
+				1829F30924E5721E00BAF4E9 /* SelectTechnician.swift */,
+				1829F30B24E5724900BAF4E9 /* SelectTechnicianCell.swift */,
+				1829F30C24E5724900BAF4E9 /* SelectTechnicianCell.xib */,
+				1829F31124E57C6000BAF4E9 /* SelectTechnicianList.swift */,
+				1829F31324E5812B00BAF4E9 /* EnterYourDetail.swift */,
+				1829F31724E5849B00BAF4E9 /* Thankyou.swift */,
+			);
+			path = MovieTechnicians;
+			sourceTree = "<group>";
+		};
+		182FBE6624E64618003C1347 /* MovieRights */ = {
+			isa = PBXGroup;
+			children = (
+				182FBE6724E6463D003C1347 /* DistributionListCell.swift */,
+				182FBE6824E6463D003C1347 /* DistributionListCell.xib */,
+				182FBE6B24E64656003C1347 /* DistributionList.swift */,
+			);
+			path = MovieRights;
+			sourceTree = "<group>";
+		};
+		183BCD5424E40C6200E66520 /* MovieTheaatres */ = {
+			isa = PBXGroup;
+			children = (
+				183BCD5924E40F2700E66520 /* MovieTheatres.swift */,
+				183BCD5524E40C8F00E66520 /* MovietheatresCell.swift */,
+				183BCD5624E40C8F00E66520 /* MovietheatresCell.xib */,
+				182FBE6024E63761003C1347 /* MovietheatreList.swift */,
+				182FBE6224E63FF4003C1347 /* MovietheatresListCell.swift */,
+				182FBE6324E63FF4003C1347 /* MovietheatresListCell.xib */,
+				EC1EE13124BB0205002E7228 /* MovieShowTime.swift */,
+			);
+			path = MovieTheaatres;
+			sourceTree = "<group>";
+		};
+		183BCD5B24E414EB00E66520 /* CityLocation */ = {
+			isa = PBXGroup;
+			children = (
+				183BCD5C24E4150C00E66520 /* CityLocation.swift */,
+				184259C424E4D109003067D8 /* Statelocation.swift */,
+				184259C624E4D30C003067D8 /* stateLocationCell.swift */,
+				184259C724E4D30C003067D8 /* stateLocationCell.xib */,
+				184259CA24E4D49C003067D8 /* SelectLanguage.swift */,
+			);
+			path = CityLocation;
+			sourceTree = "<group>";
+		};
+		183BCD6024E41EAD00E66520 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				183BCD6124E41EC600E66520 /* Dashboard.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		184259CC24E4E5EC003067D8 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				184259D524E50654003067D8 /* img_key.png */,
+				184259D924E50ADB003067D8 /* img_loader.png */,
+				184259D724E50962003067D8 /* MAIN_LOGO.png */,
+				184259CF24E4F25A003067D8 /* message.png */,
+				184259D324E500FC003067D8 /* img_lock.png */,
+				184259CD24E4E600003067D8 /* Register.swift */,
+				184259D124E4F54C003067D8 /* VerificationCode.swift */,
+				184259DE24E5325B003067D8 /* RegisterEmailID.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		184259DB24E52BCE003067D8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				184259DC24E52BE0003067D8 /* Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		184259E224E53444003067D8 /* ForGotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				184259E324E5345D003067D8 /* ForGotPassword.swift */,
+				184259E524E5359D003067D8 /* ResetPassword.swift */,
+				184259E924E53803003067D8 /* ChangePasswordSuccessfuly.swift */,
+			);
+			path = ForGotPassword;
+			sourceTree = "<group>";
+		};
+		184FA45A24E3921E00D4E263 /* Technicians */ = {
+			isa = PBXGroup;
+			children = (
+				184FA45B24E3923D00D4E263 /* TechniciansVC.swift */,
+			);
+			path = Technicians;
+			sourceTree = "<group>";
+		};
+		184FA45F24E3AD8C00D4E263 /* MyMovie */ = {
+			isa = PBXGroup;
+			children = (
+				184FA46024E3ADA700D4E263 /* MyMovieVC.swift */,
+				184FA46424E3B1F000D4E263 /* MyMovieCell.swift */,
+				184FA46524E3B1F000D4E263 /* MyMovieCell.xib */,
+				184FA46A24E3D7B500D4E263 /* eye.png */,
+				184FA46E24E3DBAA00D4E263 /* traile.jpeg */,
+			);
+			path = MyMovie;
+			sourceTree = "<group>";
+		};
+		184FA47024E3E2B300D4E263 /* Producers */ = {
+			isa = PBXGroup;
+			children = (
+				184FA47124E3E2D700D4E263 /* ProducersVC.swift */,
+			);
+			path = Producers;
+			sourceTree = "<group>";
+		};
+		184FA47324E3E65400D4E263 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				184FA47424E3E67200D4E263 /* Profile.swift */,
+				184FA47624E3E73800D4E263 /* ProfileCell.swift */,
+				184FA47724E3E73800D4E263 /* ProfileCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		184FDA9824E30CDE0078D2B9 /* MembershipPlan */ = {
+			isa = PBXGroup;
+			children = (
+				184FDA9924E30D110078D2B9 /* MembershipPlanController.swift */,
+				184FDA9B24E310170078D2B9 /* MembershipCell.swift */,
+				184FDA9C24E310170078D2B9 /* MembershipCell.xib */,
+				184FA45824E3812000D4E263 /* ReaviewOrderVC.swift */,
+			);
+			path = MembershipPlan;
+			sourceTree = "<group>";
+		};
 		EC035F4C24BDCD9300917362 /* MyPlansController */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +410,21 @@
 		EC7BBCBE24B9B22500898CB4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				182FBE6624E64618003C1347 /* MovieRights */,
+				1829F30824E571F300BAF4E9 /* MovieTechnicians */,
+				184259E224E53444003067D8 /* ForGotPassword */,
+				184259DB24E52BCE003067D8 /* Login */,
+				184259CC24E4E5EC003067D8 /* Register */,
+				183BCD6024E41EAD00E66520 /* Dashboard */,
+				183BCD5B24E414EB00E66520 /* CityLocation */,
+				183BCD5424E40C6200E66520 /* MovieTheaatres */,
+				184FA47324E3E65400D4E263 /* Profile */,
+				184FA47024E3E2B300D4E263 /* Producers */,
+				184FA45F24E3AD8C00D4E263 /* MyMovie */,
+				184FA45D24E3A37500D4E263 /* IMG_RS.png */,
+				184FA46824E3D70700D4E263 /* like.png */,
+				184FA45A24E3921E00D4E263 /* Technicians */,
+				184FDA9824E30CDE0078D2B9 /* MembershipPlan */,
 				ECB18A8724D348FB00B786A6 /* WalletController */,
 				EC72D30924C63A5D00756F1F /* Offers */,
 				EC035F5324BDDB1500917362 /* NotificationController */,
@@ -181,7 +440,6 @@
 				EC02332D24B9FD8F0078D97B /* HomeTabViewController.swift */,
 				EC02332B24B9FCA90078D97B /* SplashVC.swift */,
 				EC02332F24BA00970078D97B /* Welcome.jpg */,
-				EC1EE13124BB0205002E7228 /* MovieShowTime.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -191,6 +449,8 @@
 			children = (
 				ECB18A8824D3496500B786A6 /* WalletController.swift */,
 				18321B6F24E08040009251FF /* AvailableBalanceWallet.swift */,
+				1823727224E2EE6300EED487 /* AvailableBalanceCell.swift */,
+				1823727324E2EE6300EED487 /* AvailableBalanceCell.xib */,
 			);
 			path = WalletController;
 			sourceTree = "<group>";
@@ -279,15 +539,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184FDA9E24E310170078D2B9 /* MembershipCell.xib in Resources */,
+				182FBE6A24E6463D003C1347 /* DistributionListCell.xib in Resources */,
+				1823727524E2EE6300EED487 /* AvailableBalanceCell.xib in Resources */,
+				183BCD5824E40C8F00E66520 /* MovietheatresCell.xib in Resources */,
+				184259D424E500FC003067D8 /* img_lock.png in Resources */,
+				184FA45E24E3A37500D4E263 /* IMG_RS.png in Resources */,
+				184FA46724E3B1F000D4E263 /* MyMovieCell.xib in Resources */,
+				184FA46924E3D70700D4E263 /* like.png in Resources */,
 				ECF0918424BA0FF10019F998 /* MenuBarCell.xib in Resources */,
 				EC7BBCB524B9AC6B00898CB4 /* LaunchScreen.storyboard in Resources */,
 				EC72D31324C6420F00756F1F /* OffersCell.xib in Resources */,
 				EC035F5224BDD21200917362 /* MyPlanCell.xib in Resources */,
+				184FA46F24E3DBAA00D4E263 /* traile.jpeg in Resources */,
+				1829F30E24E5724900BAF4E9 /* SelectTechnicianCell.xib in Resources */,
+				184259C924E4D30C003067D8 /* stateLocationCell.xib in Resources */,
+				184FA46B24E3D7B500D4E263 /* eye.png in Resources */,
 				EC02333024BA00970078D97B /* Welcome.jpg in Resources */,
+				1829F31624E5844B00BAF4E9 /* thankyou.png in Resources */,
+				182FBE6524E63FF4003C1347 /* MovietheatresListCell.xib in Resources */,
+				184FA47924E3E73800D4E263 /* ProfileCell.xib in Resources */,
 				EC72D30F24C63B4C00756F1F /* NotificationCell.xib in Resources */,
 				EC7BBCB224B9AC6B00898CB4 /* Assets.xcassets in Resources */,
 				EC7BBCAD24B9AC5E00898CB4 /* Main.storyboard in Resources */,
 				ECC44CF224BDB93A00A73992 /* MyAccountCell.xib in Resources */,
+				184259DA24E50ADC003067D8 /* img_loader.png in Resources */,
+				184259D024E4F25A003067D8 /* message.png in Resources */,
+				184259D624E50655003067D8 /* img_key.png in Resources */,
+				184259D824E50962003067D8 /* MAIN_LOGO.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,30 +580,63 @@
 				EC7BBCC824B9B37900898CB4 /* MoreViewController.swift in Sources */,
 				EC02332C24B9FCA90078D97B /* SplashVC.swift in Sources */,
 				EC72D31924C64FAE00756F1F /* HelpSupport.swift in Sources */,
+				184259CB24E4D49C003067D8 /* SelectLanguage.swift in Sources */,
+				182FBE6424E63FF4003C1347 /* MovietheatresListCell.swift in Sources */,
 				ECC44CFD24BDC1BE00A73992 /* MyAdsController.swift in Sources */,
 				ECF0918524BA0FF10019F998 /* MenuBarCell.swift in Sources */,
 				EC7BBCC024B9B2C000898CB4 /* HomeViewController.swift in Sources */,
 				EC7BBCC424B9B30F00898CB4 /* UploadViewController.swift in Sources */,
 				EC72D31B24C652B100756F1F /* MyAddressDetail.swift in Sources */,
+				182FBE6124E63761003C1347 /* MovietheatreList.swift in Sources */,
+				184FDA9A24E30D110078D2B9 /* MembershipPlanController.swift in Sources */,
 				EC72D30B24C63A9800756F1F /* NotificationController.swift in Sources */,
+				184FA47824E3E73800D4E263 /* ProfileCell.swift in Sources */,
+				1829F31824E5849B00BAF4E9 /* Thankyou.swift in Sources */,
+				183BCD6224E41EC600E66520 /* Dashboard.swift in Sources */,
 				EC72D30E24C63B4C00756F1F /* NotificationCell.swift in Sources */,
+				184FA45924E3812000D4E263 /* ReaviewOrderVC.swift in Sources */,
+				184259D224E4F54C003067D8 /* VerificationCode.swift in Sources */,
+				1829F30D24E5724900BAF4E9 /* SelectTechnicianCell.swift in Sources */,
+				183BCD5A24E40F2700E66520 /* MovieTheatres.swift in Sources */,
 				EC1EE13224BB0205002E7228 /* MovieShowTime.swift in Sources */,
+				184259C824E4D30C003067D8 /* stateLocationCell.swift in Sources */,
+				184259C524E4D109003067D8 /* Statelocation.swift in Sources */,
 				EC7BBCAA24B9AC5D00898CB4 /* ViewController.swift in Sources */,
 				ECB18A8924D3496500B786A6 /* WalletController.swift in Sources */,
+				184259E624E5359D003067D8 /* ResetPassword.swift in Sources */,
 				EC035F5124BDD21200917362 /* MyPlanCell.swift in Sources */,
+				184FA45C24E3923D00D4E263 /* TechniciansVC.swift in Sources */,
 				ECC44CF124BDB93A00A73992 /* MyAccountCell.swift in Sources */,
 				18321B7024E08040009251FF /* AvailableBalanceWallet.swift in Sources */,
+				184259DF24E5325B003067D8 /* RegisterEmailID.swift in Sources */,
 				EC02332E24B9FD8F0078D97B /* HomeTabViewController.swift in Sources */,
 				EC72D31D24C6567600756F1F /* PrivacyPolicy.swift in Sources */,
+				1829F31224E57C6000BAF4E9 /* SelectTechnicianList.swift in Sources */,
 				EC035F4E24BDCE0D00917362 /* MyPlansController.swift in Sources */,
 				ECE812EB24BCBB39003D71C6 /* MyAccountViewController.swift in Sources */,
 				EC72D31724C6483D00756F1F /* TermsConditions.swift in Sources */,
+				184FA46124E3ADA700D4E263 /* MyMovieVC.swift in Sources */,
+				184FA47524E3E67200D4E263 /* Profile.swift in Sources */,
+				1829F30A24E5721E00BAF4E9 /* SelectTechnician.swift in Sources */,
 				EC7BBCA624B9AC5D00898CB4 /* AppDelegate.swift in Sources */,
+				183BCD5724E40C8F00E66520 /* MovietheatresCell.swift in Sources */,
+				182FBE6924E6463D003C1347 /* DistributionListCell.swift in Sources */,
+				184FA47224E3E2D700D4E263 /* ProducersVC.swift in Sources */,
 				EC72D31524C6423100756F1F /* OffersController.swift in Sources */,
 				EC72D31224C6420F00756F1F /* OffersCell.swift in Sources */,
+				1823727424E2EE6300EED487 /* AvailableBalanceCell.swift in Sources */,
 				EC7BBCA824B9AC5D00898CB4 /* SceneDelegate.swift in Sources */,
+				184259CE24E4E600003067D8 /* Register.swift in Sources */,
+				1829F31424E5812B00BAF4E9 /* EnterYourDetail.swift in Sources */,
+				184FA46624E3B1F000D4E263 /* MyMovieCell.swift in Sources */,
+				184259EA24E53803003067D8 /* ChangePasswordSuccessfuly.swift in Sources */,
+				182FBE6C24E64656003C1347 /* DistributionList.swift in Sources */,
+				184259DD24E52BE0003067D8 /* Login.swift in Sources */,
 				ECC44CF924BDBFD400A73992 /* MoreOptionViewController.swift in Sources */,
 				EC7BBCB024B9AC5E00898CB4 /* MyMovieBazar.xcdatamodeld in Sources */,
+				184FDA9D24E310170078D2B9 /* MembershipCell.swift in Sources */,
+				184259E424E5345D003067D8 /* ForGotPassword.swift in Sources */,
+				183BCD5D24E4150C00E66520 /* CityLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

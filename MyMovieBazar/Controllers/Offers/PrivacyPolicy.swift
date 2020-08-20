@@ -10,7 +10,8 @@ import UIKit
 
 class PrivacyPolicy: UIViewController{
     @IBOutlet var webViewTerms: UIWebView!
-   
+   @IBOutlet weak var btnBack: UIButton!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,16 +28,6 @@ class PrivacyPolicy: UIViewController{
       
        // webViewTerms.loadHTMLString("<html><body><p>Aggreement to Terms</p></body></html>", baseURL: nil)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func btnBack(_ sender: Any) {
     }
-    */
-
 }

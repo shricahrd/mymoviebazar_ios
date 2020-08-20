@@ -375,6 +375,8 @@ class WalletController: UIViewController, UIScrollViewDelegate, UITextFieldDeleg
            
        }
     
+    @IBAction func btnBack(_ sender: Any) {
+    }
     @IBAction func notificationAction(_ sender: Any) {
     }
     

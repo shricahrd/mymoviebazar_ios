@@ -353,7 +353,7 @@ class MovieShowTime: UIViewController,UIScrollViewDelegate, UICollectionViewData
             // Zoom to user location
             if let userLocation = locations.last {
                 let viewRegion = MKCoordinateRegion(center: userLocation.coordinate, latitudinalMeters: 2000, longitudinalMeters: 2000)
-                map.setRegion(viewRegion, animated: false)
+              //  map.setRegion(viewRegion, animated: false)
             }
         }
     }

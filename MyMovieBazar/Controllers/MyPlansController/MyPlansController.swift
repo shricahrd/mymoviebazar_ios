@@ -10,6 +10,8 @@ class MyPlansController: UIViewController, UITableViewDelegate, UITableViewDataS
     var screenWidth:CGFloat = 0.0
     var screenHeight:CGFloat = 0.0
     @IBOutlet var tableViewListing: UITableView!
+    @IBOutlet weak var btnEditProfile: UIButton!
+    @IBOutlet weak var imgProfile: UIImageView!
     var arrayTitle = [String]()
     
     override func viewDidLoad() {
@@ -18,6 +20,8 @@ class MyPlansController: UIViewController, UITableViewDelegate, UITableViewDataS
           view.backgroundColor = UIColor(red:255.0/255.0, green:255.0/255.0, blue:255.0/255.0, alpha:1.0)
           screenWidth = screenSize.width
           screenHeight = screenSize.height
+          imgProfile.layer.cornerRadius = imgProfile.frame.size.width/2
+          imgProfile.clipsToBounds = true
           arrayTitle = ["Movie ADS","Movie Rights","Movie Theaters","Movie Artists","Movie Technicians", "Others"]
         registerNibs()
     }
@@ -68,6 +72,8 @@ class MyPlansController: UIViewController, UITableViewDelegate, UITableViewDataS
        }
          return UITableViewCell()
 
+    }
+    @IBAction func btnEditProfile(_ sender: Any) {
     }
     
 }

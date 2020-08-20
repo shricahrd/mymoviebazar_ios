@@ -21,16 +21,18 @@ class OffersController: UIViewController, UITableViewDelegate, UITableViewDataSo
           view.backgroundColor = UIColor(red:255.0/255.0, green:255.0/255.0, blue:255.0/255.0, alpha:1.0)
           screenWidth = screenSize.width
           screenHeight = screenSize.height
+
           arrayTitle = ["Movie ADS","Movie Rights","Movie Theaters","Movie Artists","Movie Technicians", "Others"]
           registerNibs()
     }
       
     
     func registerNibs() {
+        
         tableViewListing.dataSource=self;
         tableViewListing.delegate=self;
         tableViewListing.bounces=true
-        tableViewListing.backgroundColor = UIColor.clear
+        tableViewListing.backgroundColor = UIColor.white
         tableViewListing.separatorStyle = .none
         tableViewListing.register(UINib(nibName: "OffersCell", bundle: nil), forCellReuseIdentifier: "OffersCell")
     }
